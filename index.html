@@ -5,15 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>AmadejevaStran</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .background{
-            background-color: black;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header id="mainHeader">
+        <div class="container">
+            <h1>CSS Beginners Website</h1>
+        </div>
+    </header>
+
+    <nav id="mainNav">
+        <div class="container">
+            <ul>
+                <li><a href="#">Homme</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="jumbo">
+        <div class="container">
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque officia molestiae libero, rem atque dolor fugit omnis vel eos dignissimos alias doloribus explicabo distinctio odit, ducimus provident aperiam totam temporibus.</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <aside id="sidebar">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam incidunt accusamus nihil, eaque fuga numquam delectus tempore nesciunt ratione magni atque explicabo fugit quae enim possimus dolorem ullam? Tenetur, animi.</p>
+        </aside>
+        <section id="main">
+            <h2>Section Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit consequatur ab facilis atque sequi corporis eum nihil velit maiores inventore id, ullam libero sapiente dicta ducimus rem doloribus? Quae, similique?</p>
+        </section>
+        <div class="clearFix"></div>
+        <div id="pExample">
+            <span>Span 1</span>
+            <span>Span 2</span>
+        </div>  
+    </div>
+
+    <div id="fixed">Fixed element</div>
+
+    <footer id="mainFooter">
+        <p>CopyRight &copy; 2023 Website</p>
+    </footer>
+
+
     <!-- Headings-->
     <h1>Hello World</h1>
     <h2>Hello World</h2>
@@ -24,7 +63,7 @@
 
     <hr>
     <!-- Paragraph-->
-    <div>
+    <div class="container">
         <p title="this is a tooltip">Lorem ipsum dolor sit, <strong>amet</strong> consectetur adipisicing elit. <em>Quae</em>, quaerat? Voluptate repudiandae labore, deserunt enim odio corporis. Amet consequatur doloremque, saepe accusantium quae consequuntur. Recusandae quam sunt quidem tempore ab?</p>
         <p>Lorem ipsum dolor sit, <span style="color: red;">amet consectetur adipisicing elit.</span> Quae, quaerat? Voluptate labore, deserunt enim odio corporis. Amet consequatur doloremque, saepe accusantium quae consequuntur. Recusandae quam sunt quidem tempore ab?</p>
         <p class="background">Lorem ipsum dolor sit, amet consectetur <ins>adipisicing</ins> elit. Quae, quaerat? <mark>Voluptate repudiandae labore</mark>, deserunt enim odio corporis. Amet consequatur <del>saepe accusantium</del>,  quae consequuntur. <sub>Recusandae quam sunt</sub> quidem tempore ab?</p>
